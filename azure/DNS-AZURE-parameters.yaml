@@ -1,0 +1,12 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: appconfig
+data:
+        DnsProvider: "AzurePrivateDNS"
+        subscription_id: "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+        ResourceGroup: "xxxxxxxxxxxxxx"
+        DnsZone: "xxxxxxxxxxxxxxx"
+        TENANT_ID: "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+        CLIENT: "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+        KEY: "xxxxxxxxxxxxxxxxxxxx"
